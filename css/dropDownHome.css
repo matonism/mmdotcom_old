@@ -1,0 +1,117 @@
+
+
+.dropdown-wrapper {
+    z-index: 10;
+    /* Size and position of whole dropdown*/
+    position: absolute; /* Enable absolute positioning for children and pseudo elements */
+    width: 50px;
+    margin: 0 auto;
+    height: 65px;
+    padding-left: 40px;
+    right: 0px;
+    /* Styles */
+/*    background: black;
+*/    cursor: pointer;
+    outline: none;
+    opacity: .9;
+}
+
+.dropdown-wrapper:after {
+    z-index: 10;
+
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: white transparent;
+}
+
+
+.dropdown-wrapper .dropdown-title {
+  /* Size & position of dropdown list object*/
+  z-index: 10;
+
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    padding: 0;
+    margin: 0;
+
+    /* Styles */
+    transition: all 0.3s ease-out; 
+    background: #3399CC;
+
+    list-style: none;
+    font-family: Arial;
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none;
+
+
+}
+
+@media (min-width: 701px) {
+.dropdown-wrapper .dropdown-title {
+    width: 200px;
+    left: -110px;
+}
+}
+
+@media (max-width: 700px) { 
+.dropdown-wrapper .dropdown-title{
+width: 100vw;
+text-align: center;
+}
+}
+
+
+.dropdown-wrapper .dropdown-title li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+@media (min-width: 701px) {
+.dropdown-wrapper .dropdown-title li a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+}
+
+@media (max-width: 700px) { 
+.dropdown-wrapper .dropdown-title li a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid white 1px;
+
+}
+
+/* Hover state */
+.dropdown-wrapper .dropdown-title li:hover a {
+    color: #3399CC;
+
+    background: white;
+}
+
+.dropdown-wrapper.active:after {
+    border-width: 0 6px 6px 6px;
+    border-color: white transparent;
+
+}
+.dropdown-wrapper.active{
+            background-color: #3399CC;
+
+}
+
+.dropdown-wrapper.active .dropdown-title {
+    opacity: .8;
+    pointer-events: auto;
+}

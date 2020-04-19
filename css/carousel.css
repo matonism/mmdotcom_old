@@ -1,0 +1,176 @@
+.carousel-container{
+	height: 50vw;
+/*	height: 400px;
+*/	width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: background-image .5s ease;
+/*    transition: height width 0s;
+*/}
+/*@media (min-width: 900px){
+	.carousel-container{
+		background-size: 100% 100%;
+		transition: none;
+	}
+}*/
+.carousel-image{
+	position: relative;
+	top: 20;
+	display: none;
+	opacity: 0;
+}
+.carousel-image.active{
+	position: relative;
+	right: 0;
+	top: 0;
+	opacity: 1;
+}
+
+
+@media (max-width: 700px){
+.carousel-left-arrow{
+	float: left;
+	border-radius: 40px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	color: white;
+	line-height: 40px;
+	margin-left: 15px;
+	margin-top: 20vw;
+	background-color: gray;
+	opacity: .8;
+	transition: opacity .5s ease;
+	font-weight: 900;
+
+
+}
+
+.carousel-right-arrow{
+	float: right;
+	border-radius: 40px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	color: white;
+	line-height: 40px;
+	margin-right: 15px;
+	margin-top: 20vw;
+	background-color: gray;
+	opacity: .8;
+	transition: opacity .5s ease;
+	font-weight: 900;
+
+
+}
+}
+
+@media (min-width: 701px){
+
+.carousel-left-arrow{
+	float: left;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	color: white;
+	opacity: .5;
+	line-height: 50px;
+	transition: opacity .5s ease;
+	margin-left: 10px;
+	margin-top: 20vw;
+
+}
+
+.carousel-right-arrow{
+	float: right;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	color: white;
+	opacity: .5;
+	line-height: 50px;
+	transition: opacity .5s ease;
+	margin-right: 10px;
+	margin-top: 20vw;
+
+}
+
+.carousel-left-arrow:hover{
+	background-color: gray;
+	opacity: 1;
+	font-weight: 900;
+}
+
+.carousel-right-arrow:hover{
+	background-color: gray;
+	opacity: 1;
+	font-weight: 900;
+}
+}
+
+.carousel-key-container{
+	position: relative;
+	top: 45vw;
+	height: 25px;
+	width: 100%;
+/*	background-color: black;
+*/	opacity: .8;
+	transition: opacity .25s ease;
+}
+
+.carousel-container:hover .carousel-key-container{
+	opacity: .8;
+}
+.carousel-key{
+	height: 50px;
+	border-radius: 25px;
+	border: 2px solid white;
+	width: auto;
+	height: 100%;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-family: Arial;
+	line-height: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 12px;
+	margin-right: 5px;
+	margin-left: 5px;
+
+}
+
+.carousel-key.active{
+	background-color: white;
+	color: #3399CC;
+}
+
+.carousel-key:hover{
+	background-color: #3399CC;
+	color: white;
+}
+
+.key-content-container{
+	height: auto;
+			transition: all .75s ease;
+			width: 100%
+
+}
+
+.key-content{
+
+	width: 90%;
+display: none;
+	transition: all .75s ease;
+}
+
+.key-content.active{
+	display: inline-block;
+		transition: all .75s ease;
+
+
+
+}

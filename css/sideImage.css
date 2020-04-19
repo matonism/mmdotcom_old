@@ -1,0 +1,166 @@
+
+@media (max-width: 700px){
+.side-image-container{
+	height: auto;
+	width: 90vw;
+	text-align: center;
+}
+
+.side-image-inner-container{
+	text-align: center;
+}
+.side-image-image-container{
+	width: 100%;
+	display: inline-block;
+	padding-left: 45vw;
+	margin-left: -75px;
+	text-align: center;
+}
+
+.side-image-image{
+
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+    border-radius: 150px;
+    border: 4px solid #3399CC;
+}
+#contact-image{
+	background-image: url("../Images/contactImage.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;
+}
+
+#arduino-image{
+	background-image: url("../Images/arduino.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;
+}
+
+#mario-image{
+	background-image: url("../Images/mario.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;
+}
+
+#java-image{
+	background-image: url("../Images/java2.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;
+}
+
+#website-image{
+	background-image: url("../Images/websiteLogo.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;
+}
+
+.side-image-desc{
+	width: 90vw;
+	padding-top: 5px;
+	vertical-align: top;
+	font-family: Arial;
+	text-align: center;
+	height: auto;
+	padding-bottom: 25px;
+}
+
+}
+
+@media (min-width: 701px){
+.side-image-container{
+	height: auto;
+	width: 650px;
+	text-align: center;
+	overflow: hidden;
+	margin: auto;
+	padding-bottom: 15vh;
+}
+
+.side-image-inner-container{
+	text-align: center;
+}
+.side-image-image-container{
+	width: 158px;
+	display: inline-block;
+	text-align: center;
+}
+#side-image-right{
+	padding-left: 25px;
+}
+#side-image-left{
+	padding-right: 25px;
+}
+#side-image-desc-right{
+	direction: rtl;
+}
+.side-image-image{
+
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+    border-radius: 150px;
+    border: 4px solid #3399CC;
+}
+
+#contact-image{
+	background-image: url("../Images/contactImage.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;
+}
+
+#arduino-image{
+	background-image: url("../Images/arduino.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;
+}
+
+#mario-image{
+	background-image: url("../Images/mario.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;
+}
+
+#java-image{
+	background-image: url("../Images/java2.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;
+}
+
+#website-image{
+	background-image: url("../Images/websiteLogo.jpg");
+    background-size: cover;                
+    background-repeat: no-repeat;
+}
+
+
+.side-image-desc{
+	vertical-align: top;
+	display: inline-block;
+	font-family: Arial;
+	text-align: justify;
+	max-width: 450px;
+	width:auto;
+	height: auto;
+}
+
+}
+
+
+@media (max-width: 700px) {
+      .show-mobile {
+        display: block;
+      }
+      .hide-mobile {
+        display: none;
+      }
+}
+
+@media (min-width: 701px) {
+      .show-mobile {
+        display: none;
+      }
+      .hide-moblie {
+        display: inline-block;
+      }
+}

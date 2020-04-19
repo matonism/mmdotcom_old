@@ -1,0 +1,35 @@
+.more-coming-soon{ 
+	margin-top: 100px;
+	text-align: left;
+	display: inline-block;
+	width: 800px;
+	background-color: #FF6600;
+
+}
+
+.more-coming-soon-image{ 
+	float: left;
+	height: 400px;
+	width: 300px;
+	text-align: center;
+	margin-right: 30px;
+
+
+}
+
+.more-coming-soon h1{
+
+	font-family: Arial;
+	font-style: bold;
+	color: white;
+	font-size: 28pt;
+}
+
+.more-coming-soon p{
+	font-family: Arial;
+	font-style: bold;
+	color: black;
+	font-weight: 700;
+	font-size: 24pt;
+
+}

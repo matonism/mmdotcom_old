@@ -1,0 +1,444 @@
+
+html{
+
+}
+header{
+
+}
+body{	
+	margin: 0px auto;
+}
+
+table{
+	border: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 0px auto;
+}
+
+
+*{
+	border-collapse: collapse;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+@media (min-width: 700px){
+.title-text-1{
+	text-align: center;
+	font-size: 5vw;
+	font-family: Arial;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+}
+
+@media (max-width: 701px){
+	.title-text-1{
+	text-align: center;
+	font-size: 9vw;
+	font-family: Arial;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+}
+.title-text-2{
+	text-align: center;
+	font-size: 5vw;
+	font-family: Arial;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #3399CC;
+}
+
+.title-text-3{
+	padding-bottom: 5px;
+	font-size: 30px;
+	font-family: Arial;
+	color: #3399CC;
+	font-style: bold;
+}
+
+.title-text-4{
+text-align: left;
+	font-size: 20px;
+	font-family: Arial;
+	color: #3399CC;
+	font-style: bold;
+}
+
+@media (max-width: 701px){
+.title-text-3{
+	font-size: 24px;
+	padding-bottom: 0px;
+}
+}
+
+.body-text-1{
+	font-family: Arial;
+	font-size: 16px;
+}
+
+@media (max-width: 700px){
+.body-text-1{
+	/*font-size: 2.5vw;*/
+font-size: 14px;
+text-align: justify;
+
+}
+}
+
+.body-text-2{
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.body-text-3{
+font-size: 14px;
+text-align: left;
+font-family: Arial;
+}
+
+.blue-word{
+	color: #3399CC;
+}
+
+.orange-word{
+	color: #FF6600;
+}
+
+.whole-page{
+	height: 100%;
+	position: relative;
+}
+
+/* Header Stylings */
+
+.header-container{
+	opacity: 1;
+	width: 100vw;
+	background-color: black;
+	height: 50px;
+	position: fixed;
+	z-index: 9;
+}
+
+
+@media (min-width: 701px){
+.header-container{
+	opacity: 1;
+	width: 100vw;
+	background-color: black;
+	height: 50px;
+	position: fixed;
+	z-index: 9;
+}
+}
+
+@media (max-width: 700px){
+.header-container{
+	opacity: 1;
+	width: 100vw;
+	background-color: black;
+	height: 10vh;
+	position: fixed;
+	z-index: 9;
+}
+}
+
+.header-container-on-home{
+	/*opacity: .8;*/
+	width: 100vw;
+	/*background-color: black;*/
+	height: 50px;
+	position: fixed;
+	z-index: 9;
+}
+
+.header-logo{
+	/* Size Formatting*/
+	top: 25%;
+	position: absolute;
+	width: auto;
+	height: 50px;
+	left: 20px;
+  	/* Text Formatting*/
+	font-weight: bold;
+	color: white; 
+	font-size: 20px;
+	font-family: Arial;
+ 	white-space: nowrap;
+  	overflow: hidden;
+  	z-index: 9
+}
+
+.header-logo-on-bar{
+	/* Size Formatting*/
+	display: inline-block;
+	top: 15%;
+	text-align: center;
+	position: absolute;
+	width: 100vw;
+
+  	/* Text Formatting*/
+	font-weight: bold;
+	color: white; 
+	font-size: 20px;
+	font-family: Arial;
+ 	white-space: nowrap;
+  	overflow: hidden;
+  	z-index: 9
+}
+
+#logoOnBar{
+	height: 7vh;
+
+}
+.header-links{
+	position: absolute;
+	padding: 0px;
+	right: 0px;
+	top: 0;
+	height: 50px;
+	min-width: 90px;
+	z-index: 10;
+}
+
+
+.header-links-container{
+	position: absolute;
+	right: 0;
+	width: 100%;
+	height: 50px;
+}
+
+
+
+.header-link-container{
+	height: 100%;
+   	line-height: 50px;
+   	float: right;
+
+}
+
+.header-link-container:hover { 
+/*    background-color: #FF6600;
+*/
+	background-color: #3399CC;
+
+
+}
+
+.header-link{
+	border-collapse: collapse;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white; 
+	font-size: 16px;
+	font-family: Arial;
+	text-align: center;
+	display: inline-block;
+  	line-height: normal; 
+  	white-space: nowrap;
+  	overflow: hidden;
+}
+
+/* Main Image Stylings */
+.main-image-container{
+	width: 100vw;
+	z-index: 8;
+	height: 100vh;
+/*	background-image: url("../Images/MyHeadFix.jpg");
+*/
+	background-image: url("../Images/sand.jpg");
+    background-size: cover;                /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.main-image-inner-container{
+	width: 100vw;
+	height: 100vh;
+
+}
+
+/*@media (min-width: 701px) { 
+.main-image-text-container{
+	padding-left: 275px;
+	float: left;
+}
+}*/
+
+
+.main-image-text-container{
+	position: absolute;
+	width: 100vw;
+	left: 50vw;
+	margin-left:-50vw;
+	overflow-y: auto;
+}
+
+
+.main-image-text-container{
+	text-align: center;
+	padding-top: 35vh;
+	font-family: Arial;
+	font-size: 30px;
+	color: white;
+
+}
+
+.main-image-text-container .head-text{
+	font-family: Arial;
+	font-size: 50px;
+	color: white;
+	margin-bottom: 3vh;
+	margin-top: 0px;
+
+}
+
+@media (max-width: 700px) { 
+.main-image-text-container .sub-text{
+	font-size: 16px;
+}
+}
+
+@media (min-width: 701px) { 
+.main-image-text-container .sub-text{
+	font-size: 20px;
+}
+}
+
+.main-image-text-container .sub-text{
+	font-family: Arial;
+	color: #3399CC;
+	margin-bottom: 15px;
+
+}
+
+.bottom-black-bar{
+	position: absolute;
+	border-left: 2000;
+	border-right: 2000;
+	top: 600px;
+	height: 20px;
+	width: 100%;
+	background-color: black;
+}
+
+/* Body Stylings */
+@media (max-width: 700px){
+.content{
+	padding-top: 10vh;
+
+}
+}
+@media (min-width: 701px) { 
+.content{
+	padding-top: 50px;
+}
+}
+.content{
+	overflow-x: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.main-content-container{
+	text-align: center;
+	overflow-x: hidden;
+	padding-bottom: 5vh;
+}
+.main-content-inner-container{
+	width: 90vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 5vh;
+}
+
+
+.click-button:hover{
+background-color: #3399CC;
+color: white;
+}
+
+.click-button{
+	margin: 0 auto; 
+	width: 150px;
+	height: 25px;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    font-family: helvetica;
+    font-style: lighter;
+    font-size: 20px; 
+    color:white;
+
+
+}
+
+
+.side-image-text{
+	text-align: left;
+	font-size: 16px;
+	font-family: Arial;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+
+}
+
+.intro-title-text{
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.intro-body-text{
+
+}
+
+/* Header Stylings */
+.footer-container{
+	width: 100%;
+	height: 30px;
+	bottom: 0px;
+	position: absolute;
+	z-index: 9;
+}
+
+.footer{
+	font-family: Arial;
+	padding-right: 25px;
+	float: right;
+	color: white;
+	font-size: 14px;
+}
+
+
+@media (max-width: 700px) {
+      .show-mobile {
+        display: block;
+      }
+      .hide-mobile {
+        display: none;
+      }
+}
+
+@media (min-width: 701px) {
+      .show-mobile {
+        display: none;
+      }
+      .hide-moblie {
+        display: inline-block;
+      }
+}

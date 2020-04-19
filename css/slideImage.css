@@ -1,0 +1,180 @@
+
+.slide-image{
+	height: 100vw;
+	width: 100vw;
+	overflow: hidden;
+}
+
+
+@media (min-width: 701px){
+
+	#slideImageRow{
+		height: auto;
+		width: auto;
+		display: inline-block;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	.slide-image-container{
+		position: relative;
+		height: 200px;
+		width: 300px;
+		overflow: hidden;
+	}
+	#tigerImageContainer{
+/*		margin-left: 10px;
+		margin-right: 10px;*/
+		float: left;
+	}
+	#flipImageContainer{
+		float: left;
+/*		margin-left: 10px;
+		margin-right: 10px;*/
+	}
+	#projectsImageContainer{
+		float: left;
+/*		margin-left: 10px;
+		margin-right: 10px;*/
+	}
+	#tigerImage{
+		height: 300px;
+		width: 450px;
+	}
+	#flipImage{
+		height: 300px;
+		width: 250px;
+	}
+	#projectsImage{
+		height: 300px;
+		width: 250px;
+		overflow: hidden;
+	}
+
+}
+
+@media (max-width: 700px){
+
+	#slideImageRow{
+		height: 400;
+		width: 100%;
+		padding-left: 50px;
+		padding-right: 50px;
+		display: inline-block;
+/*		margin-top: 16vh;
+*/		overflow: hidden;
+	}
+	
+	.slide-image-container{
+		position: relative;
+		height: 100vw;
+		width: 100vw;
+		overflow: hidden;
+		margin-bottom: 5vw;
+	}
+	#slideImageRow{
+		padding: 0px;
+		width: 100%;
+	}
+	#tigerImageContainer{
+		margin-left: 5vw;
+		float: left;
+		width: 90vw;
+	}
+	#flipImageContainer{
+		margin-left: 5vw;
+		float: left;
+		width: 90vw;
+	}
+
+	#projectsImageContainer{
+		margin-left: 5vw;
+		float: left;
+		width: 90vw;
+
+	}
+
+	#tigerImage{
+		float: left;
+		height: 50vw;
+		width: 90vw;
+	}
+	#flipImage{
+		float: left;
+		height: 100vw;
+		width: 90vw;
+	}
+	#projectsImage{
+		float: left;
+		height: 100vw;
+		width: 90vw;
+	}
+}
+
+
+
+
+
+
+.slide-desc-inner-container{
+
+	position: absolute;
+	top: 200px;
+	background: black;
+	height: auto;
+	transition: all .75s ease;
+	display: block;
+	overflow: hidden;
+	color: white;
+	opacity: .8;
+}
+
+
+
+.slide-image-container:hover .slide-desc-inner-container{
+	background-color: #3399CC;
+}
+
+
+
+.slide-desc-title{
+	font-family: Arial;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 24px;
+	opacity: 1;
+
+}
+
+.slide-desc-arrow{
+
+	float: right;
+	padding-top: 15px;
+	padding-right: 15px;
+	height: auto;
+	opacity: 1;
+	font-family: Arial;
+
+
+}
+
+
+.slide-desc{
+	font-size: 16px;
+	height: auto;
+	display: inline-block;
+	opacity: 1;
+	font-family: Helvetica;
+	font-weight: lighter;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+

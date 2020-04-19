@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Michael Matonis</title>
+
+
+  <!-- Javascript Files -->
+  <script type="text/javascript" src="../js/dropDown.js"></script>
+  <script type="text/javascript"  src="../js/jquery-2.1.4.min.js"></script>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="../css/myCss.css">
+  <link rel="stylesheet" type="text/css" href="../css/dropDown.css">
+  <link rel="stylesheet" type="text/css" href="../css/videoStyle.css">
+  <link rel="stylesheet" type="text/css" href="../css/error.css">
+  <link rel="stylesheet" type="text/css" href="../css/slideImage.css">
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+
+<body>
+  <div class="wholePage">
+
+    <!-- Header Section-->
+    <div class="header-container">
+      <a href="../">
+        <div class="header-logo hide-mobile">
+          Michael Matonis
+        </div>
+        <div class="header-logo-on-bar show-mobile">
+          <img id="logoOnBar" src="../Images/MMLogo.png">
+        </div>
+      </a>
+      
+      <div class="header-links-container" id="header-links-container">
+
+        <div class="header-links hide-mobile" id="header-links" >
+          <a href="../contact">
+            <div class="header-link-container">
+              <div class="header-link">Contact Info</div>
+            </div>
+          </a>
+          <a href="../projects">
+            <div class="header-link-container">
+              <div class="header-link">Projects</div>
+            </div>
+          </a>
+          <a href="../experience">
+            <div class="header-link-container">
+              <div class="header-link">Experience</div>
+            </div>
+          </a>
+          <a href="../about">
+            <div class="header-link-container"> 
+              <div class="header-link">About</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="header-links show-mobile" id="header-links">
+          <div id="dropdown-wrapper" class="dropdown-wrapper">
+            <ul class="dropdown-title">
+              <li><a href="../about">About</a></li>
+              <li><a href="../experience">Experience</a></li>
+              <li><a href="../projects">Projects</a></li>
+              <li><a href="../contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Image Section -->
+ 
+    <!-- Main Content Section -->
+    <div class="content">
+      <div class="main-content-container">
+        <div class="contact-info-container">
+          <div class="contact-info-image-container">
+            <div class="contact-info-image" id="face-image">
+              <!--TODO: Place Image Here -->
+            </div>
+          </div>
+          <div class="contact-info-desc">
+            <p>
+              <div class="title-text-3">Michael Matonis
+              </div>
+              michaelmatonis@hotmail.com
+              <br/>
+              (216)-406-8704
+            </p>
+          </div>
+          <p class="body-text-2">
+            If you have any questions, comments or concerns please contact me using the information above.  I am open to new ideas, critiques, or just interesting conversation as well so do not hesitate to reach out.  Also, if you would like a resume, please ask and I'll be more than willing to accomodate.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript Files -->
+  <script>
+  $(window).bind("load", function() {
+    DropDown(document.getElementById("dropdown-wrapper"));
+  });
+  </script>
+
+</body>
+</html>

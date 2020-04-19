@@ -1,0 +1,83 @@
+
+/* Header Stylings */
+.header-logo{
+    -webkit-animation-name: header-logo-animation; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+    animation-name: header-bar-animation;
+    animation-duration: 1s;
+    animation-direction: reverse;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes header-logo-animation {
+    0%   {opacity:.8;}
+    100% {opacity:0;}
+}
+
+.header-container{
+    -webkit-animation-name: header-bar-animation; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+    animation-name: header-bar-animation;
+    animation-duration: 1s;
+    animation-direction: reverse;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes header-bar-animation {
+    0%   {opacity:.8;}
+    100% {opacity:0;}
+}
+
+.main-image-inner-container{
+    -webkit-animation-name: main-image-animation; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+    animation-name: main-image-animation;
+    animation-duration: 2s;
+    animation-direction: reverse;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes main-image-animation {
+    0%   {background-color: transparent;}
+    50%  {background-color: white;}
+    100% {background-color: white;}
+}
+
+.main-image-text-container{
+    -webkit-animation-name: main-image-text-animation; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 3.5s; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+    animation-name: main-image-text-animation;
+    animation-duration: 3.5s;
+    animation-direction: reverse;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes main-image-text-animation {
+    0%   {opacity: 1;}
+    40%  {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.bottom-black-bar{
+    -webkit-animation-name: black-bar-animation; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+    animation-name: black-bar-animation;
+    animation-duration: 2s;
+    animation-direction: reverse;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes black-bar-animation {
+    0%   {top:600px;}
+    100% {top:0px;}
+}
+
+
+/* Body Stylings */

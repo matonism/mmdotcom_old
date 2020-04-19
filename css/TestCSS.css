@@ -1,0 +1,280 @@
+
+html{
+
+}
+header{
+
+}
+body{	
+	margin: 0px auto;
+}
+
+table{
+	border: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 0px auto;
+}
+
+
+*{
+	border-collapse: collapse;
+}
+
+a{
+	text-decoration: none;
+}
+
+.whole-page{
+	height: 100vh;
+	position: relative;
+}
+
+/* Header Stylings */
+
+.header-container{
+	opacity: .8;
+	width: 100vw;
+	background-color: black;
+	height: 50px;
+	position: fixed;
+	z-index: 9;
+}
+.header-container-on-home{
+	/*opacity: .8;*/
+	width: 100vw;
+	/*background-color: black;*/
+	height: 50px;
+	position: fixed;
+	z-index: 9;
+}
+
+
+.header-logo{
+	/* Size Formatting*/
+	top: 25%;
+	position: absolute;
+	width: auto;
+	height: 50px;
+	left: 20px;
+  	/* Text Formatting*/
+	font-weight: bold;
+	color: white; 
+	font-size: 20px;
+	font-family: Arial;
+	display: inline-block;
+	white-space: nowrap;
+  	overflow: hidden;
+  	z-index: 9
+}
+
+.header-links{
+	position: absolute;
+	padding: 0px;
+	right: 0px;
+	top: 0;
+	height: 50px;
+	min-width: 90px;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.header-links-container{
+	position: absolute;
+	right: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.header-link-container{
+	height: 100%;
+   	display: inline-block;
+   	line-height: 50px;
+
+}
+
+.header-link-container:hover { 
+/*    background-color: #FF6600;
+*/
+	background-color: #3399CC;
+
+
+}
+
+.header-link{
+	border-collapse: collapse;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white; 
+	font-size: 16px;
+	font-family: Arial;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+  	line-height: normal; 
+  	white-space: nowrap;
+  	overflow: hidden;
+}
+
+/* Main Image Stylings */
+.main-image-container{
+	width: 100vw;
+	z-index: 8;
+	height: 100vh;
+	background-image: url("../Images/MyHeadFix.jpg");
+    background-size: cover;                /* <------ */
+    background-repeat: no-repeat;
+}
+
+.main-image-inner-container{
+	width: 100vw;
+	height: 100vh;
+}
+
+@media (min-width: 701px) { 
+.main-image-text-container{
+	margin-left: 150px;
+	width: 400px;
+
+}
+}
+
+@media (max-width: 700px) { 
+
+.main-image-text-container{
+	position: absolute;
+	width: 100vw;
+	left: 50vw;
+	margin-left:-50vw;
+
+}
+}
+
+.main-image-text-container{
+	text-align: center;
+	padding-top: 125px;
+	font-family: Arial;
+	font-size: 30px;
+	color: #3399CC;
+
+}
+
+.main-image-text-container .head-text{
+	font-family: Arial;
+	font-size: 50px;
+	color: #3399CC;
+	margin-bottom: 25px;
+
+}
+
+.main-image-text-container .sub-text{
+	font-family: Arial;
+	font-size: 20px;
+	color: #3399CC;
+	margin-bottom: 15px;
+
+}
+
+.bottom-black-bar{
+	position: absolute;
+	border-left: 2000;
+	border-right: 2000;
+	top: 600px;
+	height: 20px;
+	width: 100%;
+	background-color: black;
+}
+
+/* Body Stylings */
+.content{
+	overflow-x: hidden;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.main-content-container{
+	text-align: center;
+	overflow-x: hidden;
+
+}
+
+.intro-title-text{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 20px;
+	font-size: 50px;
+	font-family: Arial;
+	overflow: hidden;
+	white-space: nowrap;
+
+
+}
+
+
+.opening-note-container{
+
+	text-align: center;
+	width: 600px;
+	min-width: 600px;
+	display: inline-block;
+	overflow-x: hidden;
+	padding: 0px 100px; 
+}
+
+
+.click-button:hover{
+background-color: #3399CC;
+color: white;
+}
+
+.click-button{
+	margin: 0 auto; 
+	width: 150px;
+	height: 25px;
+    border-radius: 25px;
+    border: 2px solid #3399CC;
+    padding: 20px;
+    font-family: helvetica;
+    font-style: lighter;
+    font-size: 20px; 
+    color:#3399CC;
+
+}
+
+
+.side-image-text{
+	text-align: left;
+	font-size: 16px;
+	font-family: Arial;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+
+}
+
+.intro-body-text{
+
+}
+
+/* Header Stylings */
+.footer-container{
+	width: 100%;
+	height: 30px;
+	bottom: 0px;
+	position: absolute;
+	z-index: 9;
+}
+
+.footer{
+	font-family: Arial;
+	padding-right: 25px;
+	float: right;
+	color: white;
+	font-size: 14px;
+}
+
+
+

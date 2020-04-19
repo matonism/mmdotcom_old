@@ -1,0 +1,244 @@
+html{
+
+}
+header{
+
+}
+body{	
+	margin: 0px auto;
+}
+
+table{
+	border: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 0px auto;
+}
+
+
+*{
+	border-collapse: collapse;
+}
+
+/* Header Stylings */
+.header-container{
+	opacity: .8;
+    -webkit-animation-name: header-bar-animation; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+    animation-name: header-bar-animation;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes header-bar-animation {
+    0%   {opacity:.8;}
+    50%  {opacity:0;}
+    100% {opacity:0;}
+}
+.header-table {
+	width: 100%;
+	position: fixed;
+
+}
+
+.header-bar{
+	width: 100%;
+	background-color: black;
+	height: 50px;
+	padding: 0px;
+	overflow: hidden;
+}
+.header-logo-container{
+
+}
+
+.header-logo{
+	font-weight: bold;
+	color: white; 
+	font-size: 20px;
+	font-family: Arial;
+	text-align: center;
+	display: inline-block;
+	padding-left: 20px;
+	white-space: nowrap;
+  	overflow: hidden;
+}
+
+.header-links{
+	text-align: right;
+	padding: 0px;
+
+}
+
+.header-link-container{
+	height: 100%;
+   	display: inline-block;
+   	line-height: 50px;
+   	border-collapse: collapse;
+
+}
+
+.header-link-container:hover { 
+    background-color: gray;
+
+
+}
+
+.header-link{
+	border-collapse: collapse;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white; 
+	font-size: 16px;
+	font-family: Arial;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+  	line-height: normal; 
+  	white-space: nowrap;
+  	overflow: hidden;
+}
+
+/* Main Image Stylings */
+.main-image-container{
+}
+
+.main-image-table{
+	width: 100%;
+	padding: 0px;
+}
+
+.main-image{
+
+	height: 600px;
+	background-image: url("../Images/MyHeadFix.jpg");
+    background-size: cover;                      /* <------ */
+    background-repeat: no-repeat;
+}
+
+.main-image-inner-container{
+	width: 100%;
+	height: 600px;
+    -webkit-animation-name: main-image-animation; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+    animation-name: main-image-animation;
+    animation-duration: 5s;
+    animation-direction: reverse;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes main-image-animation {
+    0%   {background-color: transparent;}
+    20%  {background-color: white;}
+    100% {background-color: white;}
+}
+
+.main-image-text-container{
+	text-align: center;
+	vertical-align: center;
+	width: 400px;
+	padding-left: 10%;
+	padding-top: 200px;
+    margin: 0; 
+    -webkit-animation-name: main-image-text-animation; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 6s; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+    animation-name: main-image-text-animation;
+    animation-duration: 6s;
+    animation-direction: reverse;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes main-image-text-animation {
+    0%   {opacity: 1;}
+    20%  {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.main-image-text{
+	 color: gray; 
+	 font-size: 20px;
+	 font-family: Trebuchet;
+	 display: block;
+}
+
+.bottom-black-bar{
+	height: 20px;
+	width: 100%;
+	background-color: black;
+    position: relative;
+    -webkit-animation-name: black-bar-animation; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
+    animation-name: black-bar-animation;
+    animation-duration: 2s;
+    animation-direction: reverse;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes black-bar-animation {
+    0%   {top:0px;}
+    100% {top:-600px;}
+}
+
+
+/* Body Stylings */
+.content{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+.main-content-table{
+	overflow: hidden;
+
+}
+.main-content-container{
+	text-align: center;
+}
+
+.intro-title-text{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	font-size: 50px;
+	font-family: Arial;
+	overflow: hidden;
+	white-space: nowrap;
+
+
+}
+
+
+.side-image-container{
+display: inline-block;
+
+}
+
+.side-image{
+text-align: left;
+width: 100px;
+height: 200px;
+}
+
+.side-image-text{
+	text-align: left;
+	font-size: 16px;
+	font-family: Arial;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	vertical-align: bottom;
+	display: inline-block;
+
+}
+
+.intro-body-text{
+
+}

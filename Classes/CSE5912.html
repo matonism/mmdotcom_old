@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Matonis CSE 5902</title>
+
+  <!-- Javascript Files -->
+  <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="../js/dropDown.js"></script>
+  <script type="text/javascript" src="../js/myJS.js"></script>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="../css/myCss.css">
+  <link rel="stylesheet" type="text/css" href="../css/dropDown.css">
+  <link rel="stylesheet" type="text/css" href="../css/videoStyle.css">
+  <link rel="stylesheet" type="text/css" href="../css/error.css">
+  <link rel="stylesheet" type="text/css" href="../css/sideImage.css">
+
+
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+
+<body>
+  <div class="whole-page">
+
+    <!-- Header Section-->
+    <div class="header-container">
+      <a href="../index.html">
+        <div class="header-logo hide-mobile">
+          Michael Matonis
+        </div>
+        <div class="header-logo-on-bar show-mobile">
+          <img id="logoOnBar" src="../Images/MMLogo.png">
+        </div>
+      </a>
+
+      <div class="header-links-container" id="header-links-container">
+        
+        <div class="header-links hide-mobile" id="header-links" >
+          <a href="../contact">
+            <div class="header-link-container">
+              <div class="header-link">Contact Info</div>
+            </div>
+          </a>
+          <a href="../projects">
+            <div class="header-link-container">
+              <div class="header-link">Projects</div>
+            </div>
+          </a>
+          <a href="../experience">
+            <div class="header-link-container">
+              <div class="header-link">Experience</div>
+            </div>
+          </a>
+          <a href="../about">
+            <div class="header-link-container"> 
+              <div class="header-link">About</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="header-links show-mobile" id="header-links">
+          <div id="dropdown-wrapper" class="dropdown-wrapper">
+            <ul class="dropdown-title">
+              <li><a href="../about">About</a></li>
+              <li><a href="../experience">Experience</a></li>
+              <li><a href="../projects">Projects</a></li>
+              <li><a href="../contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+ 
+    <!-- Main Content Section -->
+    <div class="content">
+      <div class="main-content-container">
+        <div class="main-content-inner-container">
+
+          <p class="title-text-1">
+            CSE 5912
+          </p>
+          <br/>
+          <img src="../Images/cse5912pt2.jpg" height="400px" width="400px">
+          <img src="../Images/cse5912pt1.jpg" height="400px" width="400px">
+          <img src="../Images/michaelbear.jpg" height="450px" width="800px">
+
+          <p class="body-text-1">
+            This page is designated for my CSE 5912 Game Design Capstone Course. I had already created my own self-hosted website using an old computer. I simply added another stand-alone page to the site containing my 3 images using raw HTML. 
+
+            I edited my three photos to make them more artsy using Photoshop. I adjusted the contrast and brightness heavily on the first photo to give it a more bold look.  I colorized the second one to contain a sepia-like tone and adjusted the highlights as well as the shadows. Finally, I created the last one using an image of my head and pasting it over another head in a previously created picture. I used the clone stamp tool in Photoshop to eliminate the unwanted portion while preserving a cohesive background to the photo.  Then I resized the picture of my head to lay it underneath the man's collar.  I adjusted the midtone contrast of my face to make it fit the scene better as well.
+          </p>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-container">
+      <div class="footer">
+        Michael Matonis 2015
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript">
+  DropDown(document.getElementById("dropdown-wrapper"));
+  </script>
+</body>
+</html>
